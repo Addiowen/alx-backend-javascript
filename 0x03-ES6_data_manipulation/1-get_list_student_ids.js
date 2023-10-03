@@ -4,8 +4,7 @@
  *   id: Number,
  *   firstName: String,
  *   location: String
- * }[]} students - The list of students.
- * @author Owen Oscar <https://github.com/Addiowen>
+ * }[]} students - The list of students
  * @returns
  */
 export default function getListStudentIds(students) {
@@ -13,4 +12,4 @@ export default function getListStudentIds(students) {
     return students.map((student) => student.id);
   }
   return [];
-}i
+}
