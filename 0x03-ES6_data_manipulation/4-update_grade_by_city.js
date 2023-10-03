@@ -9,8 +9,7 @@
  * @param {{
  *   studentId: Number,
  *   grade: Number,
- * }[]} newGrades - The new grades to be given to a student.
- * @author Owen Oscar <https://github.com/Addiowen>
+ * }[]} newGrades - The new grades to be given to a student
  * @returns {{id: Number, firstName: String, location: String}[]}
  */
 export default function updateStudentGradeByCity(students, city, newGrades) {
@@ -29,4 +28,4 @@ export default function updateStudentGradeByCity(students, city, newGrades) {
       }));
   }
   return [];
-}i
+}
